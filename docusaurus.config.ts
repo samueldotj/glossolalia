@@ -71,12 +71,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     navbar: {
       title: 'Speaking in Tongues in Church',
       logo: {
         alt: 'logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
       ],
