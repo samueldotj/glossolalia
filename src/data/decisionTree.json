@@ -1,0 +1,68 @@
+{
+    "start": {
+      "text": "Does 1 Corinthians 14:27-28 command worship order in Church?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Worship Order", "next": "worship_order" },
+        { "label": "No", "breadcrumb_label": "Not Worship Order", "next": "not_worship_order" }
+      ]
+    },
+    "not_worship_order": {
+      "text": "Is the entire Bible the word of God?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Is Word of God", "next": "start" },
+        { "label": "No", "breadcrumb_label": "Not Word of God", "next": "false_doctrine" }
+      ]
+    },
+    "worship_order": {
+      "text": "Does it apply today?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Applies Today", "next": "applies_today" },
+        { "label": "No", "breadcrumb_label": "Doesn't Apply Today", "next": "does_not_apply_today" }
+      ]
+    },
+    "applies_today": {
+      "text": "Does it apply to us?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Applies to Us", "next": "applies_to_all" },
+        { "label": "No", "breadcrumb_label": "Doesn't Apply to Us", "next": "G" }
+      ]
+    },
+    "does_not_apply_today": {
+      "text": "Does God's word change over time?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Word Changes", "next": "false_doctrine" },
+        { "label": "No", "breadcrumb_label": "Word Doesn't Change", "next": "worship_order" }
+      ]
+    },
+    "G": {
+      "text": "Read 1 Corinthians 1:2 - Does it say it is written for all Christians?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Applies to All", "next": "applies_to_all" },
+        { "label": "No", "breadcrumb_label": "Doesn't Apply to All", "next": "false_doctrine" }
+      ]
+    },
+    "applies_to_all": {
+      "text": "Can God's commands be disobeyed?",
+      "options": [
+        { "label": "Yes", "breadcrumb_label": "Can be Disobeyed", "next": "false_doctrine" },
+        { "label": "No", "breadcrumb_label": "Cannot be Disobeyed", "next": "1_cor_command_list" }
+      ]
+    },
+    "1_cor_command_list": {
+      "text": "The commands says: Max 2 or 3, one at a time, and with interpretation. Should we obey this?",
+      "options": [
+        { "label": "Obey", "breadcrumb_label": "Obey", "next": "truth" },
+        { "label": "Disobey", "breadcrumb_label": "Disobey", "next": "sin" }
+      ]
+    },
+    "truth": {
+      "text": "Truth"
+    },
+    "false_doctrine": {
+      "text": "False Doctrine"
+    },
+    "sin": {
+      "text": "Disobeying God's command is Sin"
+    }
+  }
+  
