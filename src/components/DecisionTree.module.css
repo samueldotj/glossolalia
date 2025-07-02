@@ -11,26 +11,32 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1rem;
-    background-color: var(--ifm-color-emphasis-600);
+    /* UPDATED: High-contrast background using the primary theme color */
+    background-color: var(--ifm-color-primary);
     border-radius: var(--ifm-border-radius);
     margin-bottom: 1rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
   
   .crumb {
-    color: var(--ifm-color-primary);
+    /* UPDATED: Contrasting text color */
+    color: white;
     cursor: pointer;
     padding: 0;
     user-select: none;
+    font-weight: 500;
+    opacity: 0.9;
   }
   
   .crumb:hover, .crumb:focus {
     text-decoration: underline;
+    opacity: 1;
     outline: none;
   }
   
   .crumbActive {
-    color: var(--ifm-font-color-base);
+    /* UPDATED: Contrasting text color */
+    color: white;
     font-weight: bold;
     cursor: default;
     padding: 0;
@@ -38,7 +44,8 @@
   }
   
   .separator {
-    color: var(--ifm-color-emphasis-400);
+    /* UPDATED: Contrasting separator color */
+    color: rgba(255, 255, 255, 0.7);
   }
   
   .treeContainer {
@@ -85,19 +92,23 @@
   .optionButton {
     padding: 0.75rem 1rem;
     background-color: var(--ifm-color-emphasis-100);
-    border: 1px solid var(--ifm-color-emphasis-300);
+    /* UPDATED: Use primary color for the border to make it pop */
+    border: 1px solid var(--ifm-color-primary);
     border-radius: var(--ifm-border-radius);
     cursor: pointer;
     transition: all 0.2s ease;
-    font-weight: 500;
-    color: var(--ifm-font-color-base);
+    font-weight: 600;
+    /* UPDATED: Use primary color for the text */
+    color: var(--ifm-color-primary);
     user-select: none;
   }
   
   .optionButton:hover, .optionButton:focus {
-    background-color: var(--ifm-color-emphasis-200);
+    /* UPDATED: Fill with primary color on hover for a strong actionable look */
+    background-color: var(--ifm-color-primary);
     border-color: var(--ifm-color-primary);
-    color: var(--ifm-color-primary);
+    /* UPDATED: Text becomes white for contrast */
+    color: white;
     outline: none;
   }
   
